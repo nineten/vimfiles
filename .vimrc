@@ -17,3 +17,4 @@ autocmd VimEnter * wincmd p
 let g:ctrlp_show_hidden = 1
 let g:NERDTreeChDirMode       = 2
 let g:ctrlp_working_path_mode = 'rw'
+let g:ctrlp_dont_split = 'nerdtree'
