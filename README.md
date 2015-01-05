@@ -44,3 +44,7 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 ##### [syntastic](https://github.com/scrooloose/syntastic)
 - Syntax checker
 
+##### [ag](https://github.com/rking/ag.vim)
+- Silver Searcher plugin (ag)
+- :Ag + [search term] to search for term in all files in directory
+
