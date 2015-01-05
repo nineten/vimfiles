@@ -20,4 +20,5 @@ Plugins Used
 - [vim-sensible](https://github.com/tpope/vim-sensible)
 - [vim-surround](https://github.com/tpope/vim-surround)
 - [vim-airline](https://github.com/bling/vim-airline)
+- [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [CtrlP](https://github.com/kien/ctrlp.vim)
