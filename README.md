@@ -22,3 +22,4 @@ Plugins Used
 - [vim-airline](https://github.com/bling/vim-airline)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
 - [CtrlP](https://github.com/kien/ctrlp.vim)
+- [syntastic](https://github.com/scrooloose/syntastic)
