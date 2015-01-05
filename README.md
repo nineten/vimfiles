@@ -13,6 +13,10 @@ Setup
 - Run install.sh or Copy and replace files into home directory
 
 
-To do
------
-- Explore vundler / neobundle
+Plugins Used
+------------
+- [NERDTree](https://github.com/scrooloose/nerdtree)
+- [NERDCommentor](https://github.com/scrooloose/nerdcommenter)
+- [vim-sensible](https://github.com/tpope/vim-sensible)
+- [vim-surround](https://github.com/tpope/vim-surround)
+- [vim-airline](https://github.com/bling/vim-airline)
