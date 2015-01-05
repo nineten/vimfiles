@@ -5,10 +5,16 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 
 
 ## Setup
+#### Vim configs
 - After clone this repo run the following commands to clone the plugins:
 - git submodule init
 - git submodule update
 - Run install.sh or Copy and replace files into home directory
+
+#### Bash configs
+- Load jayden.terminal into terminal configs
+- Install [Terminus TTF font](http://files.ax86.net/terminus-ttf/)
+- Copy .bash\_profle and .bashrc into ~
 
 
 ## Plugins Used
