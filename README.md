@@ -48,3 +48,8 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 - Silver Searcher plugin (ag)
 - :Ag + [search term] to search for term in all files in directory
 
+
+## Custom Commands/Mappings
+##### :Rresize
+- resize nerdtree window to original size
+
