@@ -14,6 +14,6 @@ let NERDTreeShowHidden=1
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 "ctrlP setup
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_show_hidden = 1
+let g:NERDTreeChDirMode       = 2
+let g:ctrlp_working_path_mode = 'rw'
