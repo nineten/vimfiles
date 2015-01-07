@@ -45,7 +45,8 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 
 ##### [CtrlP](https://github.com/kien/ctrlp.vim)
 - Full path file finder
-- &lt;Ctrl-p&gt; + file name to find file. Enter to open.
+- &lt;Ctrl-p&gt; + file name to find file. 
+- &lt;Ctrl-v&gt; over the file name to open a new vertical split
 
 ##### [syntastic](https://github.com/scrooloose/syntastic)
 - Syntax checker
