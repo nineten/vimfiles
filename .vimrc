@@ -7,7 +7,7 @@ set tabstop=2
 set shiftwidth=2
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 set number
-map <C-n> :NERDTreeToggle<CR>
+map <leader>n :NERDTreeToggle<CR>
 "Show hidden files in NerdTree
 let NERDTreeShowHidden=1
 "autopen NERDTree and focus cursor in new document

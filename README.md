@@ -20,13 +20,13 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 ## Plugins Used
 ##### [NERDTree](https://github.com/scrooloose/nerdtree)
 - Directory browser
-- &lt;Ctrl-n&gt; to toggle
+- &lt;Leader-n&gt; to toggle
 - &lt;Shift-c&gt; to change directory to
 
 ##### [NERDCommentor](https://github.com/scrooloose/nerdcommenter)
 - Quick comment / uncomment
-- visual selection + &lt;leader-c-c&gt; to comment out
-- visual selection + &lt;leader-c-u&gt; to uncomment
+- visual selection + &lt;Leader-c-c&gt; to comment out
+- visual selection + &lt;Leader-c-u&gt; to uncomment
 
 ##### [vim-sensible](https://github.com/tpope/vim-sensible)
 - Defaults settings on vim
