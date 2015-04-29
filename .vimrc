@@ -20,3 +20,5 @@ let g:ctrlp_working_path_mode = 'rw'
 let g:ctrlp_dont_split = 'NERD'
 "custom commands
 command Rresize execute "vertical resize 31"
+"jsx inclusion
+let g:jsx_ext_required = 0
