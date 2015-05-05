@@ -60,3 +60,6 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 ##### :Rresize
 - resize nerdtree window to original size
 
+##### \<Leader-d\>
+- to blackhole register "\_d
+

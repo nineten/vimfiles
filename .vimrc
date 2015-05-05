@@ -22,3 +22,5 @@ let g:ctrlp_dont_split = 'NERD'
 command Rresize execute "vertical resize 31"
 "jsx inclusion
 let g:jsx_ext_required = 0
+"mapping blackhole register to delete
+map <leader>d "_d
