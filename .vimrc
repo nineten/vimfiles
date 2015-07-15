@@ -24,6 +24,7 @@ let g:jsx_ext_required = 0
 "mapping blackhole register to delete
 map <leader>d "_d
 
+"mapping line swap 
 nnoremap <S-j> :m .+1<CR>==
 nnoremap <S-k> :m .-2<CR>==
 inoremap <S-j> <Esc>:m .+1<CR>==gi
@@ -31,3 +32,12 @@ inoremap <S-k> <Esc>:m .-2<CR>==gi
 vnoremap <S-k> :m '<-2<CR>gv=gv
 vnoremap <S-j> :m '>+1<CR>gv=gv
 
+"mapping split resize
+"nnoremap <S-Up> <c-w>+
+"nnoremap <S-Down> <c-w>-
+nnoremap <S-Left> <c-w><
+nnoremap <S-Right> <c-w>>
+nnoremap <leader>= <c-w>=
+
+"reindent entire file
+map <leader>I gg=G``<cr>"

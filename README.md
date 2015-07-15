@@ -74,3 +74,11 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 ##### \<Shift-j\>
 - swaps current line with line below
 
+##### \<Shift-LeftArrow\>
+- make vertical split smaller
+
+##### \<Shift-RightArrow\>
+- make vertical split larger 
+
+##### \<Leader\> =
+- make splits equal in size 
