@@ -11,8 +11,7 @@ map <leader>n :NERDTreeToggle<CR>
 "Show hidden files in NerdTree
 let NERDTreeShowHidden=1
 "autopen NERDTree and focus cursor in new document
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
+"autocmd VimEnter * NERDTree
 "ctrlP setup
 let g:ctrlp_show_hidden = 1
 let g:NERDTreeChDirMode       = 2
