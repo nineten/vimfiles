@@ -5,16 +5,21 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 
 
 ## Setup
-#### Vim configs
+#### Install
 - After clone this repo run the following commands to clone the plugins:
 - git submodule init
 - git submodule update
 - Run install.sh or Copy and replace files into home directory
-
-#### Bash configs
+- Respond *"y"* to the script for vim configs
+	- **WARNING**: this replaces all your .vim and .vimrc
+	- If you are new to vim responding *"y"* is fine.
+- Respond *"n"* to the script for bash configs
+	- I would recommend not to use my bash configs because it contains machine specific configs used for rvm / postgres
+	- However if you are new u might want to copy the lines in .bash_profile where the git branch is parsed and displayed on the console
+ 
+#### Additional Bash configs (Optional)
 - Load jayden.terminal into terminal configs
 - Install [Terminus TTF font](http://files.ax86.net/terminus-ttf/)
-- Copy .bash\_profle and .bashrc into ~
 
 
 ## Plugins Used
@@ -60,6 +65,12 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 ##### :Rresize
 - resize nerdtree window to original size
 
-##### \<Leader-d\>
-- to blackhole register "\_d
+##### \<Leader\> d
+- to blackhole register "\_d (Deletes without copying)
+
+##### \<Shift-k\>
+- swaps current line with line above
+
+##### \<Shift-j\>
+- swaps current line with line below
 
