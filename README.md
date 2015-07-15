@@ -82,3 +82,16 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 
 ##### \<Leader\> =
 - make splits equal in size 
+
+
+## Other Useful Commands
+##### v + a + t
+- select the (outer) tag and place cursor on the end
+- (works with d / y instead of v)
+
+##### v + i + t
+- select the (inner) tag and place cursor on the end
+- (works with d / y instead of v)
+
+#### Other References
+- [http://vim.rtorr.com/](http://vim.rtorr.com/)
