@@ -17,6 +17,8 @@ let g:ctrlp_show_hidden = 1
 let g:NERDTreeChDirMode       = 2
 let g:ctrlp_working_path_mode = 'rw'
 let g:ctrlp_dont_split = 'NERD'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|*.swp'
+
 "custom commands
 command Rresize execute "vertical resize 31"
 "jsx inclusion
@@ -27,8 +29,8 @@ map <leader>d "_d
 "mapping line swap 
 nnoremap <S-j> :m .+1<CR>==
 nnoremap <S-k> :m .-2<CR>==
-inoremap <S-j> <Esc>:m .+1<CR>==gi
-inoremap <S-k> <Esc>:m .-2<CR>==gi
+"inoremap <S-j> <Esc>:m .+1<CR>==gi
+"inoremap <S-k> <Esc>:m .-2<CR>==gi
 vnoremap <S-k> :m '<-2<CR>gv=gv
 vnoremap <S-j> :m '>+1<CR>gv=gv
 
