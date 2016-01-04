@@ -7,6 +7,9 @@ set tabstop=2
 set shiftwidth=2
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 set number
+
+let g:syntastic_mode_map = { 'mode': 'passive'}
+
 map <leader>n :NERDTreeToggle<CR>
 "Show hidden files in NerdTree
 let NERDTreeShowHidden=1
