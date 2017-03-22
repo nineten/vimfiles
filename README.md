@@ -62,11 +62,11 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 
 
 ## Custom Commands/Mappings
-##### :Rresize
-- resize nerdtree window to original size
-
 ##### \<Leader\> d
 - to blackhole register "\_d (Deletes without copying)
+
+##### \<Leader\> y
+- to clipboard register "+y
 
 ##### \<Shift-k\>
 - swaps current line with line above
