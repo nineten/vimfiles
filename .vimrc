@@ -10,10 +10,11 @@ autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 set number
 
 let g:syntastic_mode_map = { 'mode': 'passive'}
+let g:ycm_seed_identifiers_with_syntax = 1
 
 map <leader>n :NERDTreeToggle<CR>
 "Show hidden files in NerdTree
-"let NERDTreeShowHidden=1
+let NERDTreeShowHidden=1
 "autopen NERDTree and focus cursor in new document
 "autocmd VimEnter * NERDTree
 "ctrlP setup
@@ -24,12 +25,12 @@ let g:ctrlp_dont_split = 'NERD'
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|*.swp'
 
 "custom commands
-"command Rresize execute \"vertical resize 31"
+command Rresize execute "vertical resize 31"
 "jsx inclusion
 let g:jsx_ext_required = 0
 "mapping blackhole register to delete
-"map <leader>d "_d
-"
+map <leader>d "_d
+
 "mapping line swap 
 nnoremap <S-j> :m .+1<CR>==
 nnoremap <S-k> :m .-2<CR>==
@@ -41,20 +42,22 @@ vnoremap <S-j> :m '>+1<CR>gv=gv
 "mapping split resize
 "nnoremap <S-Up> <c-w>+
 "nnoremap <S-Down> <c-w>-
-"nnoremap <S-Left> <c-w><
-"nnoremap <S-Right> <c-w>>
-"nnoremap <leader>= <c-w>=
-"
+nnoremap <S-Left> <c-w><
+nnoremap <S-Right> <c-w>>
+nnoremap <leader>= <c-w>=
+
 "reindent entire file
 map <leader>I gg=G``<cr>"
 
 "show and unshow tabs
-":set listchars=tab:\|\ 
-"nnoremap <Leader>wt :set list<CR>
-"nnoremap <Leader>wn :set nolist<CR>
-"
+:set listchars=tab:\|\ 
+nnoremap <leader>wt :set list<CR>
+nnoremap <leader>wn :set nolist<CR>
+
 "show full path of current working file
 command Cwf execute "echo expand('%:p')"
 
 "yank to clipboard
-"nnoremap <leader>y "+y
+map <leader>y "*y
+"clipboard paste
+map <leader>p "*p
