@@ -7,6 +7,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
+au BufNewFile,BufRead *.json.jbuilder set ft=ruby
 set number
 
 let g:syntastic_mode_map = { 'mode': 'passive'}
