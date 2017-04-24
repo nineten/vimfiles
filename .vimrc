@@ -9,6 +9,9 @@ set expandtab
 autocmd BufNewFile,BufRead Gemfile set filetype=ruby
 au BufNewFile,BufRead *.json.jbuilder set ft=ruby
 set number
+"autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
+"autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
+"autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 
 let g:syntastic_mode_map = { 'mode': 'passive'}
 let g:ycm_seed_identifiers_with_syntax = 1
@@ -23,7 +26,7 @@ let g:ctrlp_show_hidden = 1
 let g:NERDTreeChDirMode       = 2
 let g:ctrlp_working_path_mode = 'rw'
 let g:ctrlp_dont_split = 'NERD'
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|*.swp'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|*.swp|*.swo'
 
 "custom commands
 command Rresize execute "vertical resize 31"
@@ -56,9 +59,13 @@ nnoremap <leader>wt :set list<CR>
 nnoremap <leader>wn :set nolist<CR>
 
 "show full path of current working file
-command Cwf execute "echo expand('%:p')"
+command Cwf execute "echo expand('%:p') | pbcopy"
+command Ywf execute "let @* = expand('%:p')"
 
 "yank to clipboard
 map <leader>y "*y
 "clipboard paste
 map <leader>p "*p
+
+nnoremap <leader>a @a
+vnoremap <S-t> :Tab /:/l1c0
