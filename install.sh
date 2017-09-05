@@ -16,16 +16,29 @@ echo "------------------"
 echo "--- By NineTen ---"
 echo "------------------"
 
-echo "Copy .vim files and .vimrc? (y/n)"
+echo "Copy .vim files? (y/n)"
 echo "(WARNING: this replaces your existing files)"
 read_input
 
 if [[ $input =~ $YES_REGEX ]]; then
-	echo "installing .vim and .vimrc..."
+	echo "installing .vim..."
 	echo "deleting old .vim files..."
 	rm -rf ~/.vim
 	echo "copying new .vim files..."
 	cp -R .vim* ~/
+fi
+
+print_linebreaker
+input=""
+
+echo "Copy .vimrc? (y/n)"
+echo "(WARNING: this replaces your existing files)"
+read_input
+
+if [[ $input =~ $YES_REGEX ]]; then
+	echo "installing .vimrc..."
+	echo "deleting old .vimrc..."
+	rm ~/.vimrc
 	echo "copying new .vimrc..."
 	cp .vimrc ~/
 fi
