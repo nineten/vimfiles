@@ -26,7 +26,7 @@ let g:ctrlp_show_hidden = 1
 let g:NERDTreeChDirMode       = 2
 let g:ctrlp_working_path_mode = 'rw'
 let g:ctrlp_dont_split = 'NERD'
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|*.swp|*.swo'
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|swo|DS_Store|ico|git|svn))$'
 
 "custom commands
 command Rresize execute "vertical resize 31"

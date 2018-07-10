@@ -37,3 +37,6 @@
 [submodule ".vim/bundle/tabular"]
 	path = .vim/bundle/tabular
 	url = https://github.com/godlygeek/tabular
+[submodule ".vim/bundle/vim-slim"]
+	path = .vim/bundle/vim-slim
+	url = git://github.com/slim-template/vim-slim.git
