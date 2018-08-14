@@ -60,6 +60,10 @@ Original mango theme from [https://github.com/goatslacker/mango.vim](https://git
 - Silver Searcher plugin (ag)
 - :Ag + [search term] to search for term in all files in directory
 
+##### [vim-ruby](https://github.com/vim-ruby/vim-ruby.vim)
+- z + a to fold/unfold
+- z + M to fold all
+- z + R to unfold all
 
 ## Custom Commands/Mappings
 ##### \<Leader\> d
