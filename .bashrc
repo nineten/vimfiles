@@ -24,6 +24,12 @@ alias nyanspec="rspec -f NyanCatFormatter"
 alias rnyanspec="APIPIE_RECORD=examples nyanspec"
 alias esstart="brew services start elasticsearch"
 alias esstop="brew services stop elasticsearch"
+alias sshadd="ssh-add -K"
+alias ssh222="ssh -p 222"
+alias rc="rubocop -c ~/.rubocop.yml"
+alias rmswp="rm -i `find . | grep .swp$`"
+alias rmswo="rm -i `find . | grep .swo$`"
+alias rmswn="rm -i `find . | grep .swn$`"
 #alias urestart="kill -HUP `ps aux | grep 'unicorn master' | grep -v grep | awk '{print $2}'`"
 
 function oxc() {

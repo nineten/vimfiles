@@ -23,7 +23,6 @@ read_input
 if [[ $input =~ $YES_REGEX ]]; then
 	echo "installing .vim..."
 	echo "deleting old .vim files..."
-	rm -rf ~/.git-completion
 	echo "copying new .vim files..."
 	cp -R .vim* ~/
 fi
@@ -57,6 +56,7 @@ if [[ $input =~ $YES_REGEX ]]; then
 	echo "copying new .bashrc files..."
 	cp .bashrc ~/
 	echo "copying new .git-completion files..."
+	rm ~/.git-completion
 	cp .git-completion ~/
 fi
 
