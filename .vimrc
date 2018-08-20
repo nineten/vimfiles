@@ -30,6 +30,9 @@ let g:ctrlp_working_path_mode = 'rw'
 let g:ctrlp_dont_split = 'NERD'
 let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|swo|DS_Store|ico|git|svn))$'
 
+"strip spaces
+let g:strip_whitespace_on_save=1
+
 "custom commands
 command Rresize execute "vertical resize 31"
 "jsx inclusion
