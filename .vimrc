@@ -1,6 +1,6 @@
 call pathogen#infect()
 set background=dark
-color mango_pudding 
+color mango_pudding
 syntax on
 filetype plugin indent on
 set tabstop=2
@@ -17,6 +17,12 @@ set nofoldenable
 
 let g:syntastic_mode_map = { 'mode': 'passive'}
 let g:ycm_seed_identifiers_with_syntax = 1
+
+:map <leader>s :if exists("g:syntax_on") <Bar>
+      \   syntax off <Bar>
+      \ else <Bar>
+      \   syntax enable <Bar>
+      \ endif <CR>
 
 map <leader>n :NERDTreeToggle<CR>
 "Show hidden files in NerdTree
@@ -40,7 +46,7 @@ let g:jsx_ext_required = 0
 "mapping blackhole register to delete
 map <leader>d "_d
 
-"mapping line swap 
+"mapping line swap
 nnoremap <S-j> :m .+1<CR>==
 nnoremap <S-k> :m .-2<CR>==
 "inoremap <S-j> <Esc>:m .+1<CR>==gi
@@ -59,7 +65,7 @@ nnoremap <leader>= <c-w>=
 map <leader>I gg=G``<cr>"
 
 "show and unshow tabs
-:set listchars=tab:\|\ 
+:set listchars=tab:\|\
 nnoremap <leader>wt :set list<CR>
 nnoremap <leader>wn :set nolist<CR>
 
@@ -77,3 +83,6 @@ vnoremap <S-t> :Tab /:/l1c0
 
 "ruby-vim
 imap <S-CR> <CR><CR>end<Esc>-cc
+
+"open ctag in new tab
+:nnoremap <silent><Leader><C-]> <C-w><C-V><C-]>

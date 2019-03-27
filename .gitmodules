@@ -49,3 +49,9 @@
 [submodule ".vim/bundle/vim-better-whitespace"]
 	path = .vim/bundle/vim-better-whitespace
 	url = https://github.com/ntpeters/vim-better-whitespace
+[submodule ".vim/bundle/indentLine"]
+	path = .vim/bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine
+[submodule ".vim/bundle/vim-ruby-fold"]
+	path = .vim/bundle/vim-ruby-fold
+	url = https://github.com/vim-utils/vim-ruby-fold
